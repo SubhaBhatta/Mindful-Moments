@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindful Moments - Mood Analysis</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Mindful Moments</div>
+      <ul>
+        <li><a href="../html/index.html">Home</a></li>
+        <li><a href="../html/journal.html">Journal</a></li>
+        <li><a href="#" class="active">Analyze Mood</a></li>
+        <li><a href="../html/resources.html">Resources</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>🧠 How Are You Feeling Today?</h2>
+      <p>Describe your mood in a few sentences below:</p>
+      <textarea
+        id="moodInput"
+        rows="5"
+        placeholder="I'm feeling a bit tired but hopeful today..."
+      ></textarea>
+      <button onclick="analyzeMood()" id="analyzeBtn">Analyze Mood</button>
+
+      <div id="chat-log"></div>
+    </main>
+
+    <footer class="custom-footer">
+      <p>
+        Web developed and designed by
+        <span class="dev-name">Subhadaya Bhatta</span><br />
+        Web tested by <span class="tester-name">Kushal Kumar Bhujel</span> and
+        <span class="tester-name">Bishwasta Marasaini</span>
+      </p>
+      <p>
+        &copy; 2025 Mindful Moments || All rights reserved || Triyog Steam Club
+      </p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
